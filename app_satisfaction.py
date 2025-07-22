@@ -17,3 +17,12 @@ st.plotly_chart(fig2)
 
 st.write("Analyse croisée (Genre vs Satisfaction) :")
 st.write(pd.crosstab(df['Sexe'], df['Satisfaction_Service']))
+
+
+# ---------- Bandeau de bas de page ----------
+st.markdown("""
+    <hr style="border-top: 1px solid #4CAF50; margin-top: 50px;"/>
+    <div style="text-align: center; color: #888; font-size: 0.9em;">
+        &copy; 2025 <strong>Josias Nteme</strong> - Tous droits réservés.
+    </div>
+""", unsafe_allow_html=True)
